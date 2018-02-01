@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmail.farasabiyyu12.quizdatapegawai.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/fdgod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Pendidikan" />
+
+        <EditText
+            android:id="@+id/etPenTer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Pendidikan Terakhir"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spTingkatPendidikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etIPK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="IPK"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spJurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="280dp"
+            android:text="Next" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
